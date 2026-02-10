@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.avatar proportioned{
+    background-color: black;
+    color: white;
+        height:auto;
+
+}
+
+
+
+.avatar distorted{
+    background-color: yellow;
+    max-width:200px;
+    height:400px;
+}
+ 
+
+img{
+    font-family:'Helvetica', Times New Roman,sans-serif;
+    max-width:300px;
+}

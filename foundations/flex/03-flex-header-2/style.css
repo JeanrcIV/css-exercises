@@ -9,10 +9,18 @@ body {
 }
 
 .header {
+  margin: auto;
+  padding: auto;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-}
+   /* Below here */
+   display: flex;
+   justify-content: space-between;
+   flex-grow: 3;
+    padding: 2rem;
+
+ }
 
 .profile-image {
   background: rebeccapurple;
@@ -41,8 +49,30 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 4rem;
+}
+
+
+.left-side{
+   gap:3rem;
+
+
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-side{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+     gap:2rem;
 }
